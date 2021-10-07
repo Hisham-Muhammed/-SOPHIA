@@ -79,7 +79,7 @@
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.!;#/]"
         },
         "Z_PINKY_AI": {
             "description": "turn on chat back auto reply pinky (use true to on and fale to off)",
@@ -134,7 +134,7 @@
         "TALKING_PINKY": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
