@@ -344,3 +344,21 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
                 await message.sendMessage(W_ADM)
         }
     }));
+
+    Sophia.tosophia({pattern: 'duration ?(.*)', fromMe: true, desc: 'bgm duration on and off', usage: '.duration on / off' }, (async (message, match) => {
+        if (match[1] == 'off') {
+                await heroku.patch(baseURI + '/config-vars', { 
+                    body: { 
+                        ['BGM_DURATION']: '0'
+                    } 
+                });
+                await message.sendMessage('Bgm duration now deactivated')
+        } else if (match[1] == 'on') {
+                await heroku.patch(baseURI + '/config-vars', { 
+                    body: { 
+                        ['BGM_DURATION']: '359996400'
+                    } 
+                });
+                await message.sendMessage('Bgm duration activated')
+        }
+    }));
