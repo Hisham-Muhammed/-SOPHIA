@@ -27,6 +27,10 @@
             "required": false,
             "value": "false"
         },
+        "BGM_DURATION": {
+             "description": "To set bgm duration",
+             "required": false
+        },   
         "BYE_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
