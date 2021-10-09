@@ -390,7 +390,7 @@ var plk9 = ''
          plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
          plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          plk8 = 'https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
-         plk9 = ' https://github.com/afnanplk/Pinky '
+         plk9 = ' https://github.com/Hisham-Muhammed/-SOPHIA '
       }//afnanplk creation
     else {
         plk1 = 'ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ᴛʏᴘᴇ .ʟɪꜱᴛ'
@@ -401,7 +401,7 @@ var plk9 = ''
         plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         plk8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
-        plk9 = ' https://github.com/afnanplk/Pinky '
+        plk9 = ' https://github.com/Hisham-Muhammed/-SOPHIA '
     }  
 
 
@@ -411,8 +411,8 @@ Sophia.tosophia({on: 'text', fromMe: false, deleteCommand: false}, (async (messa
         let regex1 = new RegExp('command ')
         let regex2 = new RegExp('name ')
         let regex3 = new RegExp('bot ')
-        let regex4 = new RegExp('pinky ')
-        let regex5 = new RegExp('afnanplk ')
+        let regex4 = new RegExp('Sophia ')
+        let regex5 = new RegExp('Hisham ')
         let regex6 = new RegExp('supporters ')
         let regex7 = new RegExp('Who are you ')
         let regex8 = new RegExp('movie ')
