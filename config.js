@@ -30,6 +30,7 @@ module.exports = {
     Z_PINKY_AI: process.env.Z_PINKY_AI === undefined ? 'false' : process.env.Z_PINKY_AI,
     PLK: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
+    BOT_PRESENCE: process.env.BOT_PRESENCE === undefined ? 'online' : process.env.BOT_PRESENCE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     AFNN: process.env.TAG_REPLY === undefined ? '919072790587@s.whatsapp.net' : process.env.TAG_REPLY,
