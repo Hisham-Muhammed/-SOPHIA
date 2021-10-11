@@ -1,7 +1,7 @@
 // 
 
 // Config.FAKE_BAN
-// Config.COUNTRY_CODE       you can add two country codes for allowed  like 94/91   devied using '/'
+// Config.COUNTRY_CODE       you can add two country codes for allowed  like 94/91   divded using '/'
 
 const QueenSew = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
