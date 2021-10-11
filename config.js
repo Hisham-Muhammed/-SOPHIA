@@ -22,6 +22,7 @@ module.exports = {
     DURATION: process.env.BGM_DURATION === undefined ? '0' : process.env.BGM_DURATION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     ICHU: process.env.TTS_SOUND === undefined ? 'ml' : process.env.TTS_SOUND,
+    COUNTRY_CODE: process.env.COUNTRY_CODE === undefined ? '91/94' : process.env.COUNTRY_CODE,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     REMOVE: process.env.THERI_KICK_GP === undefined ? 'false' : process.env.THERI_KICK_GP,
     FAKE_BAN: process.env.FAKE_BAN === undefined ? 'true' : process.env.FAKE_BAN,
