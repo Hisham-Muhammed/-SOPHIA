@@ -237,7 +237,7 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update for pinky.",
-            "UPDATE": "ʏᴏᴜʀ ᴘɪɴᴋʏ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ",
+            "UPDATE": "ʏᴏᴜʀ Sophia ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ",
             "NEW_UPDATE": "*New update available for Sophia!*\n\n ```use .list for commands``` \n\n *ask support group before updating or your bot might stop working* \n\n https://chat.whatsapp.com/JKGzUU3ItysHk33ZVLt2NC \n\n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "ᴘɪɴᴋʏ ᴜᴘᴅᴀᴛɪɴɢ...",
