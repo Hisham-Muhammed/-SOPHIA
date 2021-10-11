@@ -24,6 +24,7 @@ module.exports = {
     ICHU: process.env.TTS_SOUND === undefined ? 'ml' : process.env.TTS_SOUND,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     REMOVE: process.env.THERI_KICK_GP === undefined ? 'false' : process.env.THERI_KICK_GP,
+    FAKE_BAN: process.env.FAKE_BAN === undefined ? 'true' : process.env.FAKE_BAN,
     AFN: process.env.ALL_CAPTION === undefined ? 'MADE BY SOPHIA' : process.env.ALL_CAPTION,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
